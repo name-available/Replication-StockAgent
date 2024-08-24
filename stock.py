@@ -1,13 +1,14 @@
 import util
 
+
 class Stock:
     def __init__(self, name, initial_price, initial_stock, is_new=False):
         self.name = name
         self.price = initial_price
         self.ideal_price = 0
         self.initial_stock = initial_stock
-        self.history = {}   # {date: session_deal}
-        self.session_deal = [] # [{"price", "amount"}]
+        self.history = {}  # {date: session_deal}
+        self.session_deal = []  # [{"price", "amount"}]
 
     def gen_financial_report(self, index):
         if self.name == "A":
@@ -27,5 +28,3 @@ class Stock:
 
     def get_price(self):
         return self.price
-
-

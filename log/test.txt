@@ -573,3 +573,24 @@ Remember, it's important to stay informed and adapt your strategies based on mar
 2024-08-21 22:40:26,005 - Stocklogger - INFO - INFO: Agent 3 decide not to action
 2024-08-21 22:40:28,150 - Stocklogger - INFO - INFO: Agent 1 decide not to action
 2024-08-21 22:40:30,510 - Stocklogger - DEBUG - Buy more than cash: {"action_type": "buy", "stock": "A", "amount": 10000, "price": 31.8}
+2024-08-23 19:14:25,432 - Stocklogger - DEBUG - Agents initial...
+2024-08-23 19:14:25,452 - Stocklogger - DEBUG - cash: 818599.0470139009, stock a: 8387, stock b:25814, debt: [{'loan': 'yes', 'amount': 1775018.0335677012, 'loan_type': 0, 'repayment_date': 198}]
+2024-08-23 19:14:25,452 - Stocklogger - DEBUG - cash: 534379.5009968155, stock a: 72014, stock b:32661, debt: [{'loan': 'yes', 'amount': 1155644.6680121273, 'loan_type': 1, 'repayment_date': 88}]
+2024-08-23 19:14:25,453 - Stocklogger - DEBUG - cash: 2738855.717193834, stock a: 16761, stock b:23776, debt: [{'loan': 'yes', 'amount': 3513258.6653768406, 'loan_type': 2, 'repayment_date': 132}]
+2024-08-23 19:14:25,453 - Stocklogger - DEBUG - cash: 1355939.968837543, stock a: 61336, stock b:17877, debt: [{'loan': 'yes', 'amount': 849117.4451718458, 'loan_type': 0, 'repayment_date': 22}]
+2024-08-23 19:14:25,453 - Stocklogger - DEBUG - cash: 3657992.082414054, stock a: 21573, stock b:5382, debt: [{'loan': 'yes', 'amount': 198553.14922495425, 'loan_type': 2, 'repayment_date': 198}]
+2024-08-23 19:14:25,453 - Stocklogger - DEBUG - --------Simulation Start!--------
+2024-08-23 19:14:25,453 - Stocklogger - DEBUG - --------DAY 1---------
+2024-08-23 19:14:28,484 - Stocklogger - INFO - INFO: Agent 0 decide not to loan
+2024-08-23 19:14:30,305 - Stocklogger - INFO - INFO: Agent 1 decide not to loan
+2024-08-23 19:14:32,145 - Stocklogger - INFO - INFO: Agent 2 decide not to loan
+2024-08-23 22:07:43,370 - Stocklogger - DEBUG - Agents initial...
+2024-08-23 22:07:43,372 - Stocklogger - DEBUG - cash: 716702.3455385724, stock a: 85370, stock b:12965, debt: [{'loan': 'yes', 'amount': 800186.1012074307, 'loan_type': 0, 'repayment_date': 66}]
+2024-08-23 22:07:43,372 - Stocklogger - DEBUG - cash: 525716.2880021738, stock a: 86147, stock b:43242, debt: [{'loan': 'yes', 'amount': 337846.28012759, 'loan_type': 2, 'repayment_date': 198}]
+2024-08-23 22:07:43,372 - Stocklogger - DEBUG - cash: 1801767.4454039473, stock a: 58926, stock b:30269, debt: [{'loan': 'yes', 'amount': 2350150.6643642345, 'loan_type': 2, 'repayment_date': 220}]
+2024-08-23 22:07:43,372 - Stocklogger - DEBUG - cash: 275341.4520288561, stock a: 65716, stock b:58729, debt: [{'loan': 'yes', 'amount': 4083651.7059673257, 'loan_type': 0, 'repayment_date': 176}]
+2024-08-23 22:07:43,373 - Stocklogger - DEBUG - cash: 657874.2691619649, stock a: 48175, stock b:65875, debt: [{'loan': 'yes', 'amount': 445049.93105419277, 'loan_type': 1, 'repayment_date': 22}]
+2024-08-23 22:07:43,373 - Stocklogger - DEBUG - --------Simulation Start!--------
+2024-08-23 22:07:43,373 - Stocklogger - DEBUG - --------DAY 1---------
+2024-08-23 22:07:45,488 - Stocklogger - INFO - INFO: Agent 0 decide not to loan
+2024-08-23 22:07:47,688 - Stocklogger - INFO - INFO: Agent 1 decide not to loan

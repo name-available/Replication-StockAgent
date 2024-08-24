@@ -1,6 +1,6 @@
 from typing import overload
 
-from procoder.utils.my_typing import *
+from PromptCoder.procoder.utils.my_typing import *
 
 from .base import TS, Module, T, as_module
 

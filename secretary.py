@@ -4,6 +4,7 @@ from log.custom_logger import log
 
 import util
 
+
 def run_api(model, prompt, temperature: float = 0):
     # 设置OpenAI的API密钥（这里为空字符串）
     openai.api_key = util.OPENAI_API_KEY
@@ -32,7 +33,6 @@ class Secretary:
 
     def get_response(self, prompt):
         return run_api(self.model, prompt)  # 使用存储的模型名称调用run_api获取响应
-
 
     """
         用json形式返回结果，例如：
