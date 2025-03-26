@@ -1,5 +1,23 @@
-运行设置：
-1. util设置openai API和gemini API
-2. util模型基本设置如交易员数量、基础时常等 
-3. 默认使用openai gpt-3.5-turbo-ca模型跑程序
-如果需要更换在main.py运行中更换（gemini API暂时不可行）
+# SmartAgent: Multi-agent-based [S]imulation of Real-world Stock [Mar]ket [T]rading
+
+## Introduction
+This repository is used for COMP7409 Machine learning in trading and finance [Section 2B, 2024] course.
+
+## Setup
+
+1. install requirements：
+
+```bash
+pip install -r requirements.txt
+```
+
+2. Set up LLM model APIs such as openai API, gemini API or deepseek API, etc. in the util file.(The given API is not available)
+3. Set up basic model settings such as the number of traders, basic time, etc. in the util file
+
+## Run
+
+```
+python main.py --model {your model}
+```
+
+By default, the openai gpt-3.5-turbo-ca model is used.
