@@ -218,5 +218,4 @@ if __name__ == "__main__":
 
     args = parser.parse_args()
 
-    # 调用 simulation 函数，并将解析后的 args 传递进去
     simulation(args)

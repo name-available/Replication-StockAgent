@@ -1,5 +1,6 @@
 import logging
 from colorama import Fore, Style, Back
+from datetime import datetime
 
 
 class ColoredFormatter(logging.Formatter):
@@ -19,7 +20,9 @@ class ColoredFormatter(logging.Formatter):
 
 class CustomLogger:
     def __init__(self):
-        self.log_file = 'log/test.txt'
+        # 动态生成日志文件名
+        current_time = datetime.now().strftime('%d%H%M%S')
+        self.log_file = f'log/log_{current_time}.txt'
         self.logger = logging.getLogger('Stocklogger')
         self.logger.setLevel(logging.DEBUG)
 
