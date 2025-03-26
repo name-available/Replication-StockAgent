@@ -212,13 +212,10 @@ def simulation(args):
 
 
 if __name__ == "__main__":
-    # 创建 ArgumentParser 对象 用于处理命令行参数
     parser = argparse.ArgumentParser()
 
-    # 添加 --model 参数，用于指定模型名称，默认为 "gemini-pro"
     parser.add_argument("--model", type=str, default="gpt-3.5-turbo-ca", help="model name")
 
-    # 解析命令行参数并将结果存储在 args 对象中
     args = parser.parse_args()
 
     # 调用 simulation 函数，并将解析后的 args 传递进去
