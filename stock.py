@@ -1,6 +1,7 @@
 import util
 
 
+
 class Stock:
     def __init__(self, name, initial_price, initial_stock, is_new=False):
         self.name = name
